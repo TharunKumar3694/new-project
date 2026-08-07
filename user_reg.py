@@ -244,7 +244,7 @@ def login(user: Login):
         }
 
     return {
-        "message": "Login Successful completed",
+        "message": "Login Successful",
         "full_name": result[1],
         "username": result[4]
     }
