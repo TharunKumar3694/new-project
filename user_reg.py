@@ -235,7 +235,7 @@ def login(user: Login):
             "message": "Username not found"
         }
 
-    # Password is stored in column index 5
+    
     db_password = result[5]
 
     if user.password != db_password:
@@ -244,7 +244,7 @@ def login(user: Login):
         }
 
     return {
-        "message": "Login Successful",
+        "message": "Login Successful completed",
         "full_name": result[1],
         "username": result[4]
     }
